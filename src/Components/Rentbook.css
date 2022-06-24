@@ -1,0 +1,77 @@
+.popup{
+    position: fixed;
+    top: 100px;
+    left: 250px;
+    width: 40%;
+    height: 74%;
+    border: 5px solid green;
+    background-color: aliceblue;
+}
+/* form{
+    padding-left: 25px;
+} */
+/* input{
+    margin-bottom: 20px;
+   
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 50px;
+    border: 1px solid greenyellow;
+}
+button{
+    margin-right: 25px;
+    padding: 3px 12px
+} */
+.rent{
+    border: 2px solid green;
+    border-radius: 5px;
+    color: green;
+    margin-right: 10px;
+}
+.cancel{
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+}
+.rent:hover{
+    border: none;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+.cancel:hover{
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+.close{
+    position: relative;
+    left: 511px;
+    top: 7px;
+    color: green;
+    font-size: 20px;
+}
+.close:hover{
+    cursor:pointer;
+}
+.rentform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:5px;
+    gap: 10px;
+}
+.rentform input{
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+.rentform label{
+    font-weight: bold;
+    color: green;
+}
+
+

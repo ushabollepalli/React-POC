@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+/* button {
+  margin: 20px;
+} */
+.footer{
+  background-color: green;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
